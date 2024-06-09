@@ -1,4 +1,4 @@
-class zerog < Formula
+class Zerog < Formula
     desc "A simple CLI-based todo application"
     homepage "https://github.com/hamsurang/homebrew-0g"
     url "https://github.com/hamsurang/homebrew-0g/releases/download/v2.0.0/0g"
