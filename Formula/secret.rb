@@ -1,7 +1,7 @@
 class Secret < Formula
     desc "A simple CLI-based todo application"
     homepage "https://github.com/hamsurang/secret"
-    url "https://github.com/hamsurang/homebrew-secret/releases/download/v1.0.0/test.tar.gz"
+    url "https://github.com/hamsurang/homebrew-secret/releases/download/v1.0.0/test.go"
     version "1.0.0"
     sha256 "SHA256_CHECKSUM"
   
