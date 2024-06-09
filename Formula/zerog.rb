@@ -10,6 +10,6 @@ class Zerog < Formula
     end
   
     test do
-        system "#{bin}/0g", "--version" # 테스트 명령어
+        system "#{bin}/0g", "--start" # 테스트 명령어
     end
   end
