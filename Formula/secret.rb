@@ -1,15 +1,15 @@
-class Todo < Formula
+class Secret < Formula
     desc "A simple CLI-based todo application"
     homepage "https://github.com/hamsurang/secret"
-    url "https://github.com/hamsurang/secret"
-    version "X.Y.Z"
+    url "https://github.com/hamsurang/secret/releases/download/v1.0.0/test"
+    version "1.0.0"
     sha256 "SHA256_CHECKSUM"
   
     def install
-      bin.install "todo"
+      bin.install "test"
     end
   
     test do
-      assert_match "Todo CLI vX.Y.Z", shell_output("#{bin}/todo --version")
+        system "#{bin}/test", "--version" # 테스트 명령어
     end
   end
