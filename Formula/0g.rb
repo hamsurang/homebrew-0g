@@ -1,9 +1,9 @@
-class Secret < Formula
+class 0g < Formula
     desc "A simple CLI-based todo application"
     homepage "https://github.com/hamsurang/homebrew-0g"
     url "https://github.com/hamsurang/homebrew-0g/releases/download/v2.0.0/0g"
     version "2.0.0"
-    sha256 "cfc1f9566a359f2197a422d5afc7467250e4bd24a48332a0956cc315492daa09"
+    sha256 "sha256"
   
     def install
       bin.install "0g"
